@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    environment: 'production'
     strategy:
       matrix:
         os: [windows-latest, ubuntu-latest]
